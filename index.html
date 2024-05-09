@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== ICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./assets/css/main.css">
+
+        <link rel="icon" href="assets/img/icon.png">
+
+    
+
+        <style>
+            .lang-button {
+                margin-top: 5px;
+                right: 40%;
+                width: 20px;
+                height: 20px;
+                border: none;
+                background-color: transparent;
+                background-size: cover;
+                cursor: pointer;
+                }
+
+        </style>
+
+
+        <title id="title">Bilal Fatian | Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <p>&lt;Bilal Fatian /&gt;</p>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        
+                        <li class="nav__item">
+                            <a id="home" href="#home-link" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a id="about" href="#about-link" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a id="skills" href="#skills-link" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a id="education-nav" href="#qualifications-link" class="nav__link">
+                                <i class="uil uil-graduation-cap nav__icon"></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a id="projects" href="#portfolio-link" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a id="contact" href="#contact-link" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact
+                            </a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <div id="languageSwitcher" class="language-switcher ">
+                        <button class="lang-button" id="englishButton" onclick="switchLang('en')" style="background-image: url('https://img.icons8.com/doodle/48/usa.png')"> </button>
+                        <button class="lang-button" id="frenchButton" onclick="switchLang('fr')" style="background-image: url('https://img.icons8.com/doodle/48/france.png')"> </button>
+                    </div>
+                </div>
+
+                
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home-link">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/bilal-fatian-806813254/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://github.com/bilalfatian" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+
+                            <a href="mailto:fatian.bilal@gmail.com" target="_blank" class="home__social-icon">
+                                <i class="uil uil-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                👋🏻 Hi, I'm Bilal
+                            </h1>
+                            <h2 id="field" class="home__subtitle">
+                                Data Science Student
+                            </h2>
+                            <p id="profession" class="home__description">
+                                > Future Data Scientist 👨‍🔧
+                            </p>
+                            <div class="about__buttons">
+                                <a id="resume" download="" href="assets/pdf/Bilal_Fatian_Resume.pdf" target="_blank" class="button button--flex">
+                                    Resume
+                                    <i class="uil uil-file-download-alt button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span id="scroll" class="home__scroll-name">
+                                Scroll down
+                            </span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about-link">
+                <h2 id="about-me" class="section__title" style="margin-bottom: 4rem;">
+                    About Me
+                </h2>
+                
+                <div class="about__container container grid">
+                    
+                    <div class="about__data">
+                        <p id="about-me-content" class="about__description" style="text-align: justify">
+                            « Every bit of data tells a story; it's up to us to read it. »
+                            <br><br>
+                            This philosophy ignites my passion for delving into the realms of data and AI. With a foundation in applied mathematics and nearing completion of my bachelor's in data science, I thrive on unraveling the stories concealed within datasets. Proficient in Python, R, and SQL, I specialize in machine learning, data analysis, and visualization. My commitment lies in harnessing these skills to confront intricate problems and derive actionable insights. 
+                            <br><br>
+                            If you are seeking a dedicated data scientist passionate about leveraging data's power, let's connect and explore how we can make a difference together, one problem at a time.
+                        </p>
+                    </div>               
+                    <img src="assets/img/hero.png" alt="My Picture" class="about__img"> 
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills-link">
+                <h2 id="skills-content" class="section__title" style="margin-bottom: 5rem;">
+                    Skills
+                </h2>
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <div>
+                                    <h1 id="programming-languages" class="skills__title">
+                                        Programming Languages
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Python
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Java
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            C
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            C++
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://img.icons8.com/color/48/c-plus-plus-logo.png" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            R
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network-alt skills__icon"></i>
+                                <div>
+                                    <h1 id="data-ML" class="skills__title">
+                                        Data & Machine Learning
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Power BI
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.corporatefinanceinstitute.com/assets/power-bi.png" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            TensorFlow
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Scikit Learn
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Pandas
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/pandas/pandas-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Numpy
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/numpy/numpy-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Selenium
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Scipy
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/SCIPY_2.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            seaborn
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Requests
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Requests_Python_Logo.png" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--==================== SKILLS 5 ====================-->
+                        <!--
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cloud-computing skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">
+                                        Cloud
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            AWS
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Google Cloud
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/googlecloud/googlecloud-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Azure
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/azure/azure-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Firebase
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    -->
+                    </div>
+
+                    <div>
+                        
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+                                <div>
+                                    <h1 id="databases" class="skills__title">
+                                        Databases
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            MySQL
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/mysql/mysql-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            SQLite
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            PostegreSQL
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            MongoDB
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/mongodb/mongodb-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Oracle
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-scenery skills__icon"></i>
+                                <div>
+                                    <h1 id="web-development" class="skills__title">
+                                        Web Development
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            HTML
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            CSS
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            JavaScript
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            TypeScript
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            AJAX
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Laravel
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Symfony
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://www.svgrepo.com/show/354423/symfony.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Django
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 5 ====================-->
+                        <!--
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-apps skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">
+                                        Other Tools
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Docker
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/docker/docker-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Terraform
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Linux
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Git
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/git/git-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Jira
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" />
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualifications-link">
+                <h2 id="qualification" class="section__title">Qualifications</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div id="education-qualif" class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div id="experience" class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil uil-bag qualification__icon"></i>
+                            Experience
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <!--div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">
+                                        MS. Data Science and Engineering
+                                    </h3>
+                                    <span class="qualification__subtitle">
+                                        Faculty of Sciences of Rabat (FSR), Rabat
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2022-2024
+                                    </div>
+                                    <br>
+                                    <span class="qualification__subtitle">
+                                        <strong>Skills:</strong> Python · Java · Extract, Transform, Load (ETL) · Web Development · Oracle Database Administration · Cybersecurity · Datamining · Business Intelligence · Data Science · Deep Learning · Big Data
+                                    </span>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+
+                                </div>
+                            </!--div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div>
+
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 id="qualification-1-title" class="qualification__title">
+                                        Bachelor in Data Science
+                                    </h3>
+                                    <span id="university-1" class="qualification__subtitle">
+                                        Mohammed VI Polytechnic University (UM6P), Benguerir
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021-2024
+                                    </div>
+                                    <br>
+                                    <span id="qualifiation-1-skills" class="qualification__subtitle">
+                                        <strong>Skills:</strong> Calculus · Probability · Statistics · Linear Algebra · Programming · Data Collection · Data Cleaning · Data Exploration · Statistical Modeling · Machine Learning · Deep Learning · Data visualization 
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 id="qualification-0-title" class="qualification__title">
+                                        High school diploma in Mathematical Sciences
+                                    </h3>
+                                    <span id="high-school" class="qualification__subtitle">
+                                        Mohammed VI High School of Excellence, Benguerir
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <!--div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">
+                                        Full Stack Developer | Internship
+                                    </h3>
+                                    <span class="qualification__subtitle">
+                                        3D Smart Factory · Mohammedia, Morocco · Hybrid
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Jul 2023 - Sep 2023
+                                    </div>
+                                    <br>
+                                    <span class="qualification__subtitle">
+                                        • Deployed the MeshSegNet deep learning model that does precise 3D dental scan segmentation, using a RESTful API FastAPI. Hosted the API on AWS Cloud using Docker, AWS ECR, Lambda, and API Gateway, ensuring scalability and reliability. Reduced the cost of usage from 85$/month to 1.3$ per 1000 requests.<br><br>
+                                        • Created an intuitive user interface using Vite, React.js, Three.js, and VTK.js, allowing dental professionals to seamlessly upload, segment, and analyze intraoral scans in 3D.<br><br>
+                                        • Integrated Firebase Auth for authentication using a Google, or a Github account. Used the Open AI API to create an AI assistant chatbot that guides the website users to use the different features.<br><br>
+                                        • Deployed the web application using Vercel.<br><br>
+
+                                        <a href="https://teethseg-ai.vercel.app" style="color: #44a5e9;">🖱️ Live Demo</a><br>
+                                        <a href="https://github.com/Hamagistral/TeethSeg" style="color: #44a5e9;">💻 Github Repository</a>
+                                        
+                                    </span>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+
+                                </div>
+                            </!--div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            
+                            <!--div class="qualification__data">
+                                <div>
+
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        Front End Task Lead | Internship
+                                    </h3>
+                                    <span class="qualification__subtitle">
+                                        Omdena • Île-de-France, France · Remote
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        May 2023 - Jun 2023
+                                    </div>
+                                    <br>
+                                    <span class="qualification__subtitle">
+                                        • Led a team in developing an AI-driven transportation chatbot application for Île-de-France. Utilized Streamlit and Folium for the front-end, integrated web scraping of the RATP website for real-time traffic status, and managed data uploads to an AWS S3 bucket with an ETL using the AWS Lambda function.<br><br>
+                                        • Created an algorithm that calculated the nearest available transportation station based on user preferences and location, ultimately reducing the impact of transportation disruptions in Île-de-France and offering personalized alternative routes and directions.<br><br>
+                                        • Implemented a version using the Navitia API, ensuring accurate and up-to-date transportation data retrieval by communicating directly with RATP's non-public API, enhancing the chatbot's reliability.<br><br>
+                                        • Enhanced user interaction by integrating a dynamic chatbot UI alongside the Folium map, improving user engagement and accessibility to personalized alternative transportation information during strikes.
+                                    </span>
+                                </div>
+                            </!--div>
+
+                            <!-- ==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 id="project-1" class="qualification__title">
+                                        End of Studies Bachelor Internship Project
+                                    </h3>
+                                    <span id="project-1-entity" class="qualification__subtitle">
+                                        Moroccan Office of Phosphates. (OCP Group) · Benguerir, Morocco · On-site
+                                    </span>
+                                    <div id="project-1-date" class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Apr 2024 -> Jul 2024
+                                    </div>
+                                    <br>
+                                    <span id="project-1-desc" class="qualification__subtitle">
+                                        • Creating a predictive model for the MTBR (Mean Time Between Repairs) of the phosphate production line within OCP Safi.<br><br>
+                                        • Developing an interactive Power BI dashboard to visualize various parameters across different departments at OCP Safi.
+                                    </span>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio-link">
+                <h2 class="section__title" id="projects-github">
+                    Projects
+                </h2>
+
+                <span id="data-ml-projects" class="section__subtitle" style="margin-top: 2rem;">
+                    Data & ML Projects
+                </span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Scraping-Jobs-on-LinkedIn-Indeed.PNG" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-1-title" class="portfolio__title">
+                                    Scraping Jobs on LinkedIn & Indeed
+                                </h3>
+                                <p id="data-ml-projects-1-desc" class="portfolio__description">
+                                    Find best job offers for you by web scrapping.
+                                </p>
+                                <a href="https://github.com/bilalfatian/Scraping-Jobs-on-LinkedIn-Indeed" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Emergency-Classifier.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-2-title"  class="portfolio__title">
+                                    Emergency Message Classifier
+                                </h3>
+                                <p id="data-ml-projects-2-desc" class="portfolio__description">
+                                    ETL & ML classify emergency messages into 36 categories via a web app, aiding disaster response.
+                                </p>
+                                <a href="https://github.com/bilalfatian/Emergency-message-classifier" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Handwritten-Digit-Recognition.PNG" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-3-title"  class="portfolio__title">
+                                    Handwritten Digit Recognition
+                                </h3>
+                                <p id="data-ml-projects-3-desc" class="portfolio__description">
+                                    Develop and compare three different neural network models for handwritten digit recognition.
+                                </p>
+                                <a href="https://github.com/bilalfatian/Handwritten-Digit-Recognition" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 4 ====================-->
+                        
+                        <!--div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Reservation-System-Tkinter.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-4-title" class="portfolio__title">
+                                    Reservation System with Tkinter
+                                </h3>
+                                <p id="data-ml-projects-4-desc" class="portfolio__description">
+                                    Management Application for an Agency Specializing in Vacation Home Rentals
+                                </p>
+                                <a href="https://github.com/bilalfatian/Reservation-system-tkinter" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </!--div-->
+                        
+                        <!--==================== PORTFOLIO 5 ====================--> 
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Urban-Sounds-Classifier.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-5-title" class="portfolio__title">
+                                    Urban Sounds Classifier
+                                </h3>
+                                <p id="data-ml-projects-5-desc" class="portfolio__description">
+                                    This project implements CNNs for sound event recognition, exploring MFCCs, Log-MEL Spectrograms, and data augmentation techniques.
+                                </p>
+                                <a href="https://github.com/bilalfatian/Urban-Sounds-Classifier" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 6 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/AMZN-Stock-Prediction.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-6-title" class="portfolio__title">
+                                    Analysis of Amazon's Closing Price Time Series
+                                </h3>
+                                <p id="data-ml-projects-6-desc" class="portfolio__description">
+                                    This project delves into ARIMA and SARIMA models to analyse and predict Amazon's closing prices.
+                                </p>
+                                <a href="https://github.com/bilalfatian/AMZN-Stock-Prediction-with-Python" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 7 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Chicago-Crime-Data-Analysis.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-7-title" class="portfolio__title">
+                                    Chicago Crime Data Analysis
+                                </h3>
+                                <p id="data-ml-projects-7-desc" class="portfolio__description">
+                                    Explore Chicago crime trends visually using Power Bi and Python libraries. Check out the interactive dashboard!
+                                </p>
+                                <a href="https://github.com/bilalfatian/Chicago-Crime-Data-Analysis" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 8 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Frozen-lake.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 id="data-ml-projects-8-title" class="portfolio__title">
+                                    FrozenLake Explorer
+                                </h3>
+                                <p id="data-ml-projects-8-desc" class="portfolio__description">
+                                    Navigating FrozenLake using Q-learning algorithm for optimal policy.
+                                </p>
+                                <a href="https://github.com/bilalfatian/Implementing-FrozenLake-Q-learning-with-Gymnasium" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+
+                <span id="web-projects" class="section__subtitle">
+                    Web Projects
+                </span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Read-Well-net.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    ReadWell
+                                </h3>
+                                <p id="web-projects-1-desc" class="portfolio__description">
+                                    Web platform designed for book enthusiasts to discover, share, and enjoy a wide range of literary works.
+                                </p>
+                                
+                                <a href="https://github.com/bilalfatian/ReadWell-net" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Ihsan-net.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Ihsan-Net
+                                </h3>
+                                <p id="web-projects-2-desc" class="portfolio__description">
+                                    Charity Web App
+                                </p>
+                                <a href="https://github.com/bilalfatian/Ihssan-net" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact-link" style="margin-bottom: 5rem;">
+                <h2 id="get-in-touch" class="section__title">
+                    Get In Touch
+                </h2>
+                <span id="thank-you" class="section__subtitle" style="margin-top: 2rem; margin-bottom: 5rem;">
+                    Thank you for visiting my portfolio 🙏🏼 ! Feel free to contact me.
+                </span>
+                
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">
+                                    Email
+                                </h3>
+                                <span class="contact__subtitle">
+                                    fatian.bilal@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 id="location" class="contact__title">
+                                    Location
+                                </h3>
+                                <span id="location-" class="contact__subtitle">
+                                    Tetouan, Morocco
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="mailto:fatian.bilal@gmail.com" method="POST" enctype="text/plain" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label id="name" for="name" class="contact__label">Name</label>
+                                <input type="text" id="Name" name="Name" class="contact__input" required>
+                            </div>
+                            <div class="contact__content">
+                                <label for="email" class="contact__label">Email</label>
+                                <input type="email" id="Email" name="Email" class="contact__input" required>
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="Message" class="contact__label">Message</label>
+                            <textarea id="Message" name="Message" cols="0" rows="7" class="contact__input" maxlength="3000" required></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="button button--flex" style="border: none;">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">&lt;Bilal Fatian /&gt;</p>
+            <div class="footer__social" style="margin-top: 2rem;">
+                <a href="https://www.linkedin.com/in/bilal-fatian-806813254/" target="_blank" class="footer__icon"><i class='uil uil-linkedin button__icon' ></i></a>
+                <a href="https://github.com/bilalfatian" target="_blank" class="footer__icon"><i class='uil uil-github-alt button__icon' ></i></a>
+                <a href="mailto:fatian.bilal@gmail.com" target="_blank" class="footer__icon"><i class='uil uil-envelope button__icon' ></i></a>
+            </div>
+            <p class="footer__copy">
+                Made with 💖 by Bilal.
+            </p>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
