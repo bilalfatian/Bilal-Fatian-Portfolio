@@ -208,7 +208,7 @@ const languageContent = {
         "project-1": "End of Studies Bachelor Internship Project",
         "project-1-entity": "OCP Group · Safi, Morocco · On-site",
         "project-1-date": "Apr 2024 -> Jul 2024",
-        "project-1-desc": "• Creating a predictive model for the MTBR (Mean Time Between Repairs) of the phosphate production line within OCP Safi.<br><br>• Developing an interactive Power BI dashboard to visualize various parameters across different departments at OCP Safi.",
+        "project-1-desc": "• Developed predictive maintenance models for turbine systems to forecast potential failures and mitigate downtime, resulting in increased operational uptime. This strategic approach significantly reduced downtime costs while optimizing maintenance expenditure.<br><br>• Developed an interactive Power BI dashboard, synthesizing data sets from various entities to provide invaluable insights, empowering streamlined decision-making processes throughout the organization.",
         "projects-github": "Projects",
         "data-ml-projects": "Data & ML Projects",
         "data-ml-projects-1-title": "Scraping Jobs on LinkedIn & Indeed",
